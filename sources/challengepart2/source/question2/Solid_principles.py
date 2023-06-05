@@ -14,16 +14,16 @@ class SolidPrinciples:
         answer from AnswerChoices enum. Then implement each method of this class."""
 
     def get_answer_for_problem_A(self) -> AnswerChoices:
-        return NotImplemented
+        return "LSP"
     
     def get_answer_for_problem_B(self) -> AnswerChoices:
-        return NotImplemented
+        return "OCP"
     
     def get_answer_for_problem_C(self) -> AnswerChoices:
-        return NotImplemented
+        return "ISP"
 
     def get_answer_for_problem_D(self) -> AnswerChoices:
-        return NotImplemented
+        return "SRP"
 
     def get_answer_for_problem_E(self) -> AnswerChoices:
-        return NotImplemented
+        return "DIP"
